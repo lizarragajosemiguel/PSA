@@ -1,0 +1,193 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    Font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif
+}
+
+
+
+
+
+.head1{
+background-color: #AABA9B;
+}
+
+
+.linklogo{
+    text-decoration: none;
+    color: #d9e2d1;
+    font-size: 100px;
+    Font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif
+}
+
+
+
+.navbar{
+    background-color: #e1ecd7;
+    color: rgb(3, 114, 3);
+    text-align: right;
+    padding: 24px;
+}
+
+.navbar ul li{
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.navbar ul li a:hover{
+    color: rgb(245, 252, 243);
+    background-color: rgb(143, 158, 143);
+}
+
+
+.button{
+    border-radius: 50px;
+    background-color: #AABA9B;
+    border: 5px solid white
+    (8, 112, 103, 0.685);
+    color:#ecf0e9;
+    padding: 10px;
+    text-decoration: none;
+    Font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif
+}
+
+
+.titulo{
+    text-align: center;
+    Font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    padding: 10px;
+    font-size: 70px;
+    padding-bottom: 4%;
+    color: #7e8a74;
+}
+
+
+li{
+    list-style: none;
+}
+
+section{
+    display: flex;
+}
+
+section, div{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.div1, .div2, .div3{
+    background-color: #AABA9B;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    padding: 20px;
+    color: #e7ebe4;
+}
+
+.h2{
+    margin-top: 80px;
+    margin-bottom: 10px;
+}
+
+
+
+.div2{
+    padding: 20px;
+}
+
+.div2{
+    text-align: center;
+    width: 30%;
+    text-align: left;
+}
+
+.div3{
+    text-align: center;
+}
+
+
+.div-a, .div-b{
+    background-color: #AABA9B;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    padding: 30px;
+    color: #e7ebe4;
+    justify-content: left;
+
+}
+
+
+
+footer{
+    display: flex;
+    background-color: #D6EBC3;
+    justify-content: space-between;
+    padding:  2em 3em;
+}
+
+.div4{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #e6eede;
+    background: #AABA9B;
+    padding: 2em;
+    border-radius: 7px;
+}
+
+
+@media screen and (min-width: 360px) and (max-width: 640px){
+    nav, ul, li, a, .button{
+        margin-bottom: 30px;
+    }
+}
+
+
+
+@media screen and (min-width: 360px) and (max-width: 640px){
+    .titulo{
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (min-width: 360px) and (max-width: 640px){
+    section{
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (min-width: 360px) and (max-widht: 640px){
+    footer{
+        flex-wrap: wrap;
+        display: flex;
+
+    }
+}
+
+@media screen and (min-width: 360px) and (max-width: 640px){
+    .div4{
+        justify-content: center;
+        margin-bottom: 30px;
+        width: 70%;
+
+    }
+}
+
+@media screen and (min-width: 360px) and (max-width: 640px){
+    .map, iframe{
+        width: 80vw;
+    }
+}
+
+@media screen and (min-width: 360px) and (max-width: 640px){
+    section, .div, h2{
+        padding-top: 0;
+    }
+}
+
+@media screen and (min-width: 360px) and (max-width: 640px){
+    .div2, .h2, .p1{
+        width: 85vw;
+    }
+}
